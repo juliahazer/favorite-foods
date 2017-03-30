@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Favorite Foods</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="style.css">
+	
+	<script
+	  src="//code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+	<div class="row">
+		<h1 class="text-center">My Favorite Foods</h1>
+		
+		<form class="form-inline text-center foodForm">
+		  <div class="form-group">
+		    <label for="favFood">Food</label>
+		    <input type="text" class="form-control input-lg" id="favFood" placeholder="A favorite food" required>
+		  </div>
+		  <div class="form-group formRating">
+		    <label for="rating">Rating</label>
+		    <input type="text" class="form-control input-lg" id="rating" placeholder="Rate the food from 0-10" required>
+		  </div>
+		  <button type="submit" class="btn btn-danger btn-lg">Add Food</button>
+		</form>
+
+	</div>
+
+	<div class="row foodTableDiv">
+		<div class="col-md-offset-3 col-md-6">
+		  <table class="table table-bordered">
+		    <thead>
+		      <tr>
+		        <th>
+		        	<div class="tableHead">Food</div> 
+		        	<div class="sortGlyph">
+		        		<div class="sortGlyphTop"><span class="glyphicon glyphicon-chevron-up foodAsc" aria-hidden="true"></span></div>
+		        		<div class="sortGlyphBottom"><span class="glyphicon glyphicon-chevron-down foodDsc" aria-hidden="true"></span></div>
+		        	</div>  
+		        </th>
+		        <th>
+		        	<div class="tableHead">Rating</div>
+					<div class="sortGlyph">
+		        		<div class="sortGlyphTop"><span class="glyphicon glyphicon-chevron-up ratingAsc" aria-hidden="true"></span></div>
+		        		<div class="sortGlyphBottom"><span class="glyphicon glyphicon-chevron-down ratingDsc" aria-hidden="true"></span></div>
+		        	</div>  
+				</th>
+		        <th>
+		        	<div class="tableHeadDelete">Delete</div>
+		        </th>
+		      </tr>
+		    </thead>
+		    <tbody class="foodTableBody">
+		    </tbody>
+		  </table>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>	
+</body>
+</html>

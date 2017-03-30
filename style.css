@@ -1,0 +1,61 @@
+body {
+	background-color: #FFCC99;
+	color: #663333;
+}
+
+tr td {
+	font-size: 18px;
+}
+
+tr {
+	background-color: white;
+}
+
+form {
+	background-color: #663333;
+	color: #FFCC99;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.form-group {
+	padding-right: 10px;
+}
+
+.form-control:-moz-placeholder {
+	font-size: .8em;
+}
+.form-control::-moz-placeholder {
+	font-size: .8em;
+}
+.form-control:-ms-input-placeholder{
+	font-size: .8em;
+}
+.form-control::-webkit-input-placeholder {
+  font-size: .8em;
+}
+
+table {
+	margin-top: 20px;
+}
+
+th {
+	background-color: #663333;
+	color: #FFCC99;
+}
+
+.tableHead {
+	float: left;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+.tableHeadDelete {
+	height: 40px;
+	line-height: 40px;
+}
+
+.sortGlyph {
+	float: left;
+}
+
