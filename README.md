@@ -1,5 +1,7 @@
 ## Favorite Foods List
 
+[https://juliahazer.github.io/favorite-foods/](https://juliahazer.github.io/favorite-foods/)
+
 A list page where users can add and rate examples of their favorite foods. This page includes the following:
 
 * A form, where the user can add a food to the list and rate it.
